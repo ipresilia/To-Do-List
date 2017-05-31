@@ -18,7 +18,7 @@ function updateCounters() {
 function toggleDone() {
   var checkbox = this;
 
-  // check the checked status of the checkbox
+  // This checks the "checked status of the checkbox"
   if (checkbox.checked) {
     // the "completed" class is set on the parent element, the <li>
     checkbox.parentElement.className = "todo completed";
